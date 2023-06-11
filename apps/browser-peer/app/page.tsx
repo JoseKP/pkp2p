@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <Wrapper>
       <Typography.Title>PKP2P - BROWSER PEER</Typography.Title>
-      <Loading />
+      <Loading tip="UES'/>
     </Wrapper>
   );
 }
