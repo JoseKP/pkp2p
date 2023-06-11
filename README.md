@@ -4,4 +4,4 @@
 
 - Libp2p
 - Lit Protocol
-- Ceramic
+- Ceramic ComposeDB
