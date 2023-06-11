@@ -5,5 +5,3 @@
 - Libp2p
 - Lit Protocol
 - Ceramic ComposeDB
-
-Testing
