@@ -26,9 +26,13 @@ watcher.on("change", (path) => {
     const insertions = changes[1];
     const deletions = changes[2];
 
+    console.log("filesChanged", filesChanged);
+    console.log("insertions", insertions);
+    console.log("deletions", deletions);
+
     // Now you can perform some logic based on the number of changes
     if (filesChanged > 5 || insertions + deletions > 10) {
-      console.log("Significant changes detected");
+      console.log("✔️ Significant changes detected");
 
       exec(
         'git add . && git commit -m "update" && git push',
